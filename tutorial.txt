@@ -1,0 +1,46 @@
+===========================================================
+  TUTORIAL: COMO CLONAR E RODAR O SITE UNIFYX LOCALMENTE
+===========================================================
+
+Este guia rápido explica como baixar o código e iniciar o servidor de desenvolvimento.
+
+1. PRÉ-REQUISITOS
+-----------------
+Certifique-se de ter instalado em sua máquina:
+- Node.js (versão 18 ou superior)
+- npm (gerenciador de pacotes do Node, já incluso na instalação)
+- Git (opcional, apenas se for clonar de um repositório remoto)
+
+
+2. CLONANDO O PROJETO (Via Git)
+-------------------------------
+Se o projeto estiver hospedado no GitHub, abra o seu terminal/prompt de comando e digite:
+> git clone https://github.com/seu-usuario/unifyX-site.git
+> cd unifyX-site
+
+
+3. INSTALANDO DEPENDÊNCIAS
+--------------------------
+Com o terminal aberto dentro da pasta do projeto (ex: c:\Users\User\Downloads\UnifyX-site), execute o seguinte comando para baixar todas as bibliotecas necessárias (React, Tailwind, etc):
+> npm install
+
+
+4. RODANDO O SERVIDOR DE DESENVOLVIMENTO
+----------------------------------------
+Ainda no terminal dentro da pasta do projeto, inicie o servidor com:
+> npm run dev
+
+Você verá uma mensagem semelhante a esta no terminal:
+  VITE v8.x.x  ready in 200 ms
+  ➜  Local:   http://localhost:5173/
+
+Copie o endereço "http://localhost:5173/" e cole no seu navegador. 
+O site institucional do unifyX estará rodando e qualquer alteração no código recarregará a página automaticamente!
+
+
+5. CONSTRUINDO PARA PRODUÇÃO (Opcional)
+---------------------------------------
+Quando o site estiver pronto para ser publicado, rode:
+> npm run build
+
+Isso criará uma pasta "dist" otimizada que pode ser hospedada em serviços como Vercel, Netlify ou GitHub Pages.
