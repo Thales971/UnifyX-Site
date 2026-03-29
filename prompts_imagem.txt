@@ -1,0 +1,24 @@
+===========================================================
+  PROMPT PARA GERADOR DE IMAGEM: IDENTIDADE UNIFYX
+===========================================================
+
+Você pode copiar os prompts abaixo e enviá-los para uma IA geradora de imagens (como Midjourney, DALL-E 3 ou Adobe Firefly).
+
+1. IMAGEM DE CAPA / BANNER DO GITHUB (Banner open-graph / Header)
+------------------------------------------------------------------
+"A modern, ultra-wide cyberpunk style GitHub repository banner for a programming language called 'unifyX'. The background should feature abstract glowing digital circuitry, blending vibrant orange (OKLCH 0.65 0.25 45) and deep tech blue (OKLCH 0.25 0.15 260). In the center, a futuristic typography displaying the word 'unifyX'. Subtle floating glowing particles in warm beige and pastel peach. The overall tone is powerful, high-performance, and revolutionary. 8k resolution, neon lighting, clean and professional layout, perfect for a developer tool."
+
+
+2. MASCOTE NEXUS (Armadura unifyX)
+------------------------------------------------------------------
+"A 3d render of 'NEXUS', a futuristic character wearing high-tech armor with glowing circuitry patterns. The armor represents power, control, and revolution. The color scheme is vibrant orange, deep dark blue, and warm beige, featuring holographic effects emitting from the suit. Character design is sleek and modern, standing in a dynamic, confident pose against a dark, minimalist tech background. Cinematic lighting, Unreal Engine 5 style."
+
+
+3. MASCOTE CIPHER (Leopardo-Salsicha) - Substituindo o Pinguim do Linux
+------------------------------------------------------------------
+"A 3d render of 'CIPHER', a friendly but rebellious 'sausage-leopard' (a long-bodied leopard) wearing cool Wesker-style dark sunglasses. Around its neck, a futuristic bone collar glowing with the 'unifyX' branding. The color palette incorporates vibrant orange, dark blue, beige, and pastel peach. The mascot is sitting proudly, representing an evolution from traditional OS mascots, exuding an aura of being the ultimate system companion. High quality, expressive character design, Pixar meets Cyberpunk style."
+
+
+4. LOGO/AVATAR PARA GITHUB
+------------------------------------------------------------------
+"A minimalist, professional app icon for a programming language called 'unifyX'. The design features a stylized letter 'X' that looks like intersecting digital energy beams or futuristic brackets. The colors are vibrant orange and deep dark blue. The background is a sleek, dark surface with a subtle glowing aura. Flat design with slight 3D depth, perfect for a GitHub organization avatar."

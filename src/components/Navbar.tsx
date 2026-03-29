@@ -4,9 +4,11 @@ import { Menu, X } from 'lucide-react'
 
 const navLinks = [
   { to: '/', label: 'Home' },
-  { to: '/docs', label: 'Documentação' },
+  { to: '/docs', label: 'Docs' },
   { to: '/community', label: 'Comunidade' },
   { to: '/blog', label: 'Blog' },
+  { to: '/downloads', label: 'Downloads' },
+  { to: '/pricing', label: 'Pricing' },
 ]
 
 export default function Navbar() {
@@ -37,7 +39,7 @@ export default function Navbar() {
             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-shadow">
               <span className="text-white font-display font-bold text-sm">uX</span>
             </div>
-            <span className="font-display font-bold text-xl text-accent tracking-tight">
+            <span className="font-display font-bold text-xl text-neutral-dark tracking-tight">
               unify<span className="text-primary">X</span>
             </span>
           </Link>
@@ -51,7 +53,7 @@ export default function Navbar() {
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   location.pathname === l.to
                     ? 'text-primary bg-primary/8'
-                    : 'text-accent/70 hover:text-accent hover:bg-neutral-light/60'
+                    : 'text-neutral-dark/70 hover:text-neutral-dark hover:bg-neutral-light/60'
                 }`}
               >
                 {l.label}
@@ -90,7 +92,7 @@ export default function Navbar() {
               className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
                 location.pathname === l.to
                   ? 'text-primary bg-primary/8'
-                  : 'text-accent/70 hover:text-accent hover:bg-neutral-light/60'
+                  : 'text-neutral-dark/70 hover:text-neutral-dark border-b border-transparent hover:border-neutral-light/60'
               }`}
             >
               {l.label}

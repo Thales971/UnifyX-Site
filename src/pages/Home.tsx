@@ -97,8 +97,8 @@ const roadmapPhases = [
     items: [
       'Sistema operacional baseado em unifyX',
       'Kernel modular e seguro',
-      'Interface gráfica nativa',
-      'Ecossistema de apps unifyX',
+      'Mascote Cipher (Leopardo-Salsicha) no core',
+      'Ecossistema de apps unifyX e Interface nativa',
     ],
   },
 ]

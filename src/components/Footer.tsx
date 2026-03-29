@@ -3,19 +3,19 @@ import { GitBranch as GithubIcon, Send as TwitterIcon, MessageCircle, Mail } fro
 
 const footerLinks = {
   Produto: [
-    { label: 'Features', to: '/#features' },
-    { label: 'Roadmap', to: '/#roadmap' },
-    { label: 'Comparação', to: '/#comparison' },
+    { label: 'Downloads', to: '/downloads' },
+    { label: 'Pricing', to: '/pricing' },
+    { label: 'Showcase', to: '/showcase' },
   ],
   Recursos: [
     { label: 'Documentação', to: '/docs' },
     { label: 'Blog', to: '/blog' },
-    { label: 'Exemplos', to: '/docs' },
+    { label: 'Sobre', to: '/about' },
   ],
   Comunidade: [
     { label: 'GitHub', to: '/community' },
     { label: 'Discord', to: '/community' },
-    { label: 'Contribuir', to: '/community' },
+    { label: 'Fórum', to: '/community' },
   ],
 }
 
@@ -28,7 +28,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-accent text-white/80">
+    <footer className="bg-secondary text-white/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top section */}
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">

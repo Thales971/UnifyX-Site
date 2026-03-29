@@ -5,18 +5,17 @@
    ============================================ */
 
 @theme {
-  --color-primary: oklch(0.65 0.25 45);
-  --color-primary-light: oklch(0.75 0.18 45);
-  --color-primary-dark: oklch(0.55 0.25 45);
-  --color-secondary: oklch(0.75 0.15 50);
-  --color-secondary-light: oklch(0.85 0.10 50);
-  --color-accent: oklch(0.25 0.15 260);
-  --color-accent-light: oklch(0.35 0.12 260);
-  --color-neutral: oklch(0.85 0.08 60);
-  --color-neutral-light: oklch(0.92 0.04 60);
-  --color-neutral-dark: oklch(0.75 0.06 60);
-  --color-surface: oklch(0.98 0.01 60);
-  --color-surface-dark: oklch(0.15 0.02 260);
+  --color-primary: #FF6B35;
+  --color-primary-dark: #e65a29;
+  --color-secondary: #1A3A52;
+  --color-secondary-light: #2a4c6a;
+  --color-pastel: #FFE5CC;
+  --color-pastel-dark: #FFD4A3;
+  --color-accent: #D4A574;
+  --color-neutral: #FFFFFF;
+  --color-neutral-dark: #2C3E50;
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #1A3A52;
 
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Poppins', ui-sans-serif, system-ui, sans-serif;
@@ -43,8 +42,8 @@
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px oklch(0.65 0.25 45 / 0.15); }
-  50% { box-shadow: 0 0 40px oklch(0.65 0.25 45 / 0.35); }
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 107, 53, 0.15); }
+  50% { box-shadow: 0 0 40px rgba(255, 107, 53, 0.35); }
 }
 
 @keyframes float {
@@ -67,7 +66,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  color: var(--color-accent);
+  color: var(--color-neutral-dark);
   background: var(--color-surface);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -85,8 +84,8 @@ code, pre {
 }
 
 ::selection {
-  background: oklch(0.65 0.25 45 / 0.3);
-  color: var(--color-accent);
+  background: rgba(255, 107, 53, 0.3);
+  color: var(--color-neutral-dark);
 }
 
 /* ============================================
@@ -96,39 +95,40 @@ code, pre {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-neutral-light);
+  background: var(--color-surface);
 }
 ::-webkit-scrollbar-thumb {
-  background: oklch(0.65 0.15 45 / 0.4);
+  background: var(--color-primary-dark);
   border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: oklch(0.65 0.20 45 / 0.6);
+  background: var(--color-primary);
 }
 
 /* ============================================
    Utility classes
    ============================================ */
 .text-gradient {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light), var(--color-secondary));
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent), var(--color-secondary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .bg-gradient-hero {
-  background: linear-gradient(135deg, var(--color-neutral-light) 0%, var(--color-surface) 40%, var(--color-secondary-light) 100%);
+  background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-surface-dark) 40%, var(--color-neutral-dark) 100%);
 }
 
 .bg-gradient-cta {
-  background: linear-gradient(135deg, var(--color-accent) 0%, oklch(0.30 0.18 270) 50%, oklch(0.20 0.12 260) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 50%, var(--color-secondary) 100%);
 }
 
 .glass {
-  background: oklch(1 0 0 / 0.7);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid oklch(1 0 0 / 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 
 /* Prism.js customizations */
